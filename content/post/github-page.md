@@ -15,3 +15,6 @@ https://gohugo.io/hosting-and-deployment/hosting-on-github/
 https://qiita.com/h6m3_u/items/5893a61091d258936716
 
 公式を途中までやり，deploy.shの後半は，参考サイトを参考にしました
+
+旧ブログ  
+https://namikoneko.github.io/blog2/

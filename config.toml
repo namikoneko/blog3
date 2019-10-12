@@ -1,5 +1,5 @@
 baseURL = "https://namikoneko.github.io/"
-title = "中小企業社内IT担当者マイケルの備忘録"
+title = "中小企業の社内IT担当者マイケルの備忘録"
 theme ="hugo-theme-basic"
 languageCode = "ja"
 googleAnalytics = "UA-XXXXXXXXX-X"
