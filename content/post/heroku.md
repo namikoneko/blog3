@@ -45,6 +45,10 @@ https://qiita.com/croquette0212/items/9b4dc5377e7d6f292671
 
 db_uriのところの変数として，公式をコピペして`DATABASE_URL`を使っていたら，接続できず大ハマリした。
 
+DATABASE_URLを確認したければ，以下。
+
+	heroku pg:credentials:url
+
 datasetを使うなら，以下のようになる。
 
 	db = dataset.connect('db_uri')

@@ -166,6 +166,21 @@ DBに接続して，削除する。
 
 このままだと，insertやupdateすると，今月のカレンダーに戻っておかしいので，年月を保持するように修正する。
 
-insertは，ins.htmlに渡す日付から，年月文字列を作る。
+insertは，ins.htmlに渡す日付から，年月文字列も作って渡す。
 
-updateは，idで抽出したレコードの日付から，年月文字列を作る。
+	YM = mydate[:4] + mydate[5:7]
+
+ins.htmlから，`type="hidden"`で，ins_exeコントローラーに渡す。
+
+updateは，idで抽出したレコードの日付から，年月文字列を作って，upd.htmlに渡す。
+
+	YM = str(date)[:4] + str(date)[5:7]
+
+upd.htmlから，`type="hidden"`で，upd_exeコントローラーに渡す。
+
+
+## flaskにBasic認証をかける
+
+以下のサイトを参考にした。
+
+https://qiita.com/mitch0807/items/d5e354a4e6e5b4f04bd6
