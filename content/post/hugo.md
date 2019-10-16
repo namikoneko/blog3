@@ -9,7 +9,9 @@ draft: 0
 
 記事編集  
 
-    vim content/post/[title].md
+    open content/post
+
+sumlime textで編集
 
 ローカルのブラウザで確認
 
